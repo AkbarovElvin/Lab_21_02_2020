@@ -1,0 +1,77 @@
+.myform{
+    width: 25%;
+}
+#header{
+    position: fixed;
+    z-index: 9999999999 ;
+    background-color: white;
+    width: 100%;
+}
+#header .logo img{
+    max-height: 20px;
+}
+#provide{
+    background: url("../img/Backgroun-intro.png") center bottom no-repeat;
+    padding: 150px 0 100px 0;
+
+}
+
+#provide .provide-content{
+
+}
+#provide .provide-content h2{
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    
+
+}
+#provide .provide-content h2 span{
+   color: #74b5fc;
+}
+#provide .provide-content .provide-buttons{
+
+}
+#provide .provide-image{
+    
+}
+
+#about-us p{
+font-size: 16px;
+}
+#about-us .about-header{
+    width: 50%;
+    margin: 0 auto;
+}
+#about-us .about-header p{
+    font-size: 14px;
+    padding-bottom: 40px;
+    
+}
+#about-us .tempor-header{}
+#about-us .tempor .tempor-icon{
+    display: flex;
+    float: left;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+    border-radius: 50%;
+    color: aqua;
+    background-color: white;
+    cursor: pointer;
+    margin-right: 1rem;
+    transition: all .2s;
+}
+#about-us .tempor:hover .tempor-icon{
+    color: white;
+    background-color: aqua;
+}
+#about-us .tempor .tempor-content a{
+text-decoration: none;
+font-size: 20px;
+text-transform: capitalize;
+font-weight: 700;
+}
